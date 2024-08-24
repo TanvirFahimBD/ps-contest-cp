@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int x, y, sum = 0;
+    cin>>x>>y;
+    for(y = y+1; y<x; y++){
+        if(y%2 != 0){
+            count++;
+        }else{
+            continue;
+        }
+    }
+    cout<<count<<endl;
+    return 0;
+}

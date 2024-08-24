@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int n, ns, n11, n12, n21, n22, n31, n32;
+    scanf("%d", &n);
+    ns = n*3600
+    n11 = (ns/3600);
+    n12 = (n%3600);
+    n21 = (n12/60);
+    n22 = (n12%60);
+    n31 = (n22/20);
+    printf("%d:%d:%d\n",);
+    return 0;
+}

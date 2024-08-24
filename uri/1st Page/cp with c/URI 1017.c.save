@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int st, avs, cs=12;
+    float fl;
+    scanf("%d %d", &st, &avs);
+    fl = ()(st*avs)/cs;
+    printf("%.3f\n",fl);
+    return 0;
+}

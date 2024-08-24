@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+D:\REPOS\cp\private\oj-cp-codes\uri\1st Page\cp with java\.metadata\.plugins\org.eclipse.jdt.core
+4057225030.index
+1957872108.index
+4254436009.index
+2621617997.index

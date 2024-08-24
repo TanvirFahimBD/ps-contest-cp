@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n, t, in = 0, out = 0;
+    cin>>t;
+    while(t>0){
+        cin>>n;    
+    if(n>=10 && n<=20){
+        in++;
+    }es
+        t--;
+    }
+    return 0;
+}

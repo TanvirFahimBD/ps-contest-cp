@@ -1,0 +1,32 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int i, stop, exit, enter, remain = 0, capacity, capacityMax;
+
+        cin >> stop;
+        for(i=0; i<stop; i++){
+            cin >> exit >> enter;
+            if(i==0) {
+                remain = enter;
+                capacity = enter;
+            }else{
+            
+            remain += - exit;
+            capacity = remain+enter;
+            }
+
+            cout << remain << endl;
+            cout << capacity << endl;
+
+//            if(capacity < capacity[i]){
+//               capacityMax = capacity[i];
+//            }
+        }
+
+//        cout << capacityMax << endl;
+
+
+    return 0;
+}

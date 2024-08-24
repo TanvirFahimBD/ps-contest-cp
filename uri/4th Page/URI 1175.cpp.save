@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int N[20], i = 3, y;
+    while(i>=0){
+        cin >> y;
+        N[i] = y;
+//        cout << "N["<<i<<"] = " << y << endl;
+        i--;
+    }
+
+    for(int x = 0, j = 0; x<=3; x++, j++){
+        cout << "N["<<x<<"] = " << N[j] << endl;
+        continue;
+    }
+
+    return 0;
+}
+
+
+

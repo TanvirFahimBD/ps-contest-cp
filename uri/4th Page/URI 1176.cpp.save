@@ -1,0 +1,61 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int t;
+    cin >> t;
+    while(t>0){
+        int i = 2, n = 0;
+        long long int N[60];
+        N[0] = 0;
+        N[1] = 1;
+        for(; i <= 60; i++){
+            N[i] = N[i-1]+ N[i-2];
+        }
+        cin >> n;
+
+        for(; i <= n; i++){
+            cout << "Fib(" << n << ") = " << N[i] << endl;
+        }
+        t--;
+    }
+
+    return 0;
+}
+
+
+
+//#include<iostream>
+//using namespace std;
+//
+//int main()
+//{
+//    int t;
+//    cin >> t;
+//    while(t>0){
+//        int n, a = 0, b = 1, c = 0, i = 0, z = 0;
+//        cin >> n;
+//        for(; i < n; i++){
+//            if(n == 0){
+//                z = 1;
+//                c = 0;
+//            }
+//            else{
+//                if(i < n -1){
+//                    c = a+b;
+//                    a = b;
+//                    b = c;
+//                }else {
+//                    i++;
+//                    break;
+//                }
+//            }
+//        }
+//        if(z == 1)cout << "Fib(" << i << ") = " << c << endl;
+//        else if(z == 0)cout << "Fib(" << i << ") = " << c << endl;
+//        t--;
+//    }
+//
+//    return 0;
+//}

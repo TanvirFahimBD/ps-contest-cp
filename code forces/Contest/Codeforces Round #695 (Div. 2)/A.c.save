@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+
+
+
+    int n, i, n1, res;
+        scanf("%d", &n);
+
+    for(i = 1; i<=n; i++ ){
+        scanf("%d", &n1);
+        res = (pow(10,n1)) - n1;
+        printf("%d\n",res);
+    }
+     return 0;
+
+}
+//    int n;
+//    int *input;
+//    scanf("%d", &n);
+//    input = malloc(n*sizeof(int));
+
+
+
+//    int n1, res;
+//    scanf("%d", &n1);
+//    res = (pow(10,n1)) - n1;
+//    printf("%d\n",res);

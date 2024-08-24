@@ -1,0 +1,42 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int t;
+    cin>>t;
+    while(t!=0)
+    {
+        int n, i, count=0, path = 0;
+        char c[4];
+        cin>>n;
+        for(i=0; i<n; i++)
+        {
+            for(i=0;i<n;i++)
+            {
+                cin>>c[i];
+                if(c[i]=='r')
+                {
+                    continue;
+                    cout<<-1;
+                }
+                else
+                    break;
+
+            }
+            for(i=0;i<n;i++)
+            {
+                cin>>c[i];
+                if(c[i]=='f')
+                {
+                    count++;
+                }
+                path++;
+            }
+            cout<<count<<endl;
+            cout<<path<<endl;
+        }
+
+        t--;
+    }
+    return 0;
+}

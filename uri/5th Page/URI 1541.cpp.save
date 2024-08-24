@@ -1,0 +1,20 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+    int a, b, c, area, sa;
+    while((a==0 || b==0 || c==0) != ){
+        cin >> a >> b >> c;
+
+        else{
+            area = (a*b*100)/c;
+            sa = sqrt(area);
+            cout << sa << endl;
+        }
+
+    }
+
+    return 0;
+}

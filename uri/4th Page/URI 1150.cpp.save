@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a, b;
+    cin >> a;
+    while(1){
+        cin >> b;
+        if(b>a){
+            break;
+        }else continue;
+    }
+    for(; a<b; a++){
+        sum += a;
+        if(sum>=b){
+            cout << a << endl;
+        }else continue
+    }
+
+    return 0;
+}

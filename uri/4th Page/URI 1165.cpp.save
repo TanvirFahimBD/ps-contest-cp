@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int t;
+    cin >> t;
+    while(t>0){
+        int x;
+        cin >> x;
+        for(int i = 2; i<x; i++){
+            if(x%i==0 ){
+                z = 1;
+                break;
+            }
+        }
+
+        t--;
+    }
+
+    return 0;
+}

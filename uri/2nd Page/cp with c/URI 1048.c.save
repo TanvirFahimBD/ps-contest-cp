@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    double a, ns, me;
+    scanf("%lf", &a);
+    if(a>=0.00 && a<=400){
+        me = (a*15)/100;
+        ns = a + me;
+        printf("Novo salario: %.2d\n",ns);
+        printf("Reajuste ganho: %.2d\n",me);
+        printf("Em percentual: 15\n");
+    }
+    return 0;
+}

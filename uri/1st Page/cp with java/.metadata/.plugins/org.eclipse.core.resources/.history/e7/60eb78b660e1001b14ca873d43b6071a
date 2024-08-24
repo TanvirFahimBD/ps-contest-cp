@@ -1,0 +1,110 @@
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import java.awt.Font;
+import javax.swing.JCheckBox;
+import javax.swing.JComboBox;
+import javax.swing.JButton;
+import javax.swing.JSpinner;
+import javax.swing.JTextPane;
+import javax.swing.JProgressBar;
+import javax.swing.JToggleButton;
+import javax.swing.DefaultComboBoxModel;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class PaymentAccountAdd extends JFrame {
+
+	private JPanel contentPane;
+	private JTextField textField;
+	private JTextField textField_1;
+	private JTextField textField_2;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					PaymentAccountAdd frame = new PaymentAccountAdd();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public PaymentAccountAdd() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("Choose Payment Method Type");
+		lblNewLabel.setFont(new Font("Comic Sans MS", Font.PLAIN, 14));
+		lblNewLabel.setBounds(118, 51, 203, 26);
+		contentPane.add(lblNewLabel);
+		
+		JLabel lblAddNewPayment = new JLabel("Add New Payment Method");
+		lblAddNewPayment.setFont(new Font("Comic Sans MS", Font.BOLD, 16));
+		lblAddNewPayment.setBounds(108, 11, 213, 29);
+		contentPane.add(lblAddNewPayment);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setModel(new DefaultComboBoxModel(new String[] {"fas"}));
+		comboBox.setFont(new Font("Comic Sans MS", Font.BOLD, 12));
+		comboBox.setBounds(192, 88, 65, 24);
+		contentPane.add(comboBox);
+		
+		JLabel lblNewLabel_1 = new JLabel("Mobile Number");
+		lblNewLabel_1.setFont(new Font("Comic Sans MS", Font.PLAIN, 12));
+		lblNewLabel_1.setBounds(10, 136, 82, 14);
+		contentPane.add(lblNewLabel_1);
+		
+		JLabel lblNewLabel_2 = new JLabel("PIN Number");
+		lblNewLabel_2.setFont(new Font("Comic Sans MS", Font.PLAIN, 12));
+		lblNewLabel_2.setBounds(10, 170, 82, 14);
+		contentPane.add(lblNewLabel_2);
+		
+		JLabel lblNewLabel_3 = new JLabel("Issue Date");
+		lblNewLabel_3.setFont(new Font("Comic Sans MS", Font.PLAIN, 12));
+		lblNewLabel_3.setBounds(10, 205, 82, 14);
+		contentPane.add(lblNewLabel_3);
+		
+		JButton btnNewButton = new JButton("Add Payment Method");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+		btnNewButton.setFont(new Font("Comic Sans MS", Font.BOLD, 12));
+		btnNewButton.setBounds(267, 227, 157, 23);
+		contentPane.add(btnNewButton);
+		
+		textField = new JTextField();
+		textField.setBounds(108, 133, 137, 20);
+		contentPane.add(textField);
+		textField.setColumns(10);
+		
+		textField_1 = new JTextField();
+		textField_1.setBounds(108, 168, 137, 20);
+		contentPane.add(textField_1);
+		textField_1.setColumns(10);
+		
+		textField_2 = new JTextField();
+		textField_2.setBounds(108, 203, 114, 20);
+		contentPane.add(textField_2);
+		textField_2.setColumns(10);
+	}
+}

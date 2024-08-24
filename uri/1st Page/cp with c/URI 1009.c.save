@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    char nm[];
+    float sl, sd, TOTAL;
+    scanf("%s %f %f",&nm ,&sl, &sd);
+    TOTAL = (sl+((sd*15)/100));
+    printf("TOTAL = R")
+    return 0;
+}

@@ -1,0 +1,19 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+
+int main()
+{
+    int i=0 x;
+    double A[100];
+    while(i<100) {
+        cin >> x;
+        if(x<=10) {
+            A[i]=x;
+            cout<<"A["<< i <<"] = " ;
+            cout <<fixed<<setprecision(1) <<x<< endl;
+            i++;
+        } else continue;
+    }
+    return 0;
+}

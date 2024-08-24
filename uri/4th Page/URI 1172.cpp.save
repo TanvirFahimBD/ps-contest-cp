@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int i = 0;
+    while(1){
+        int a, x[10];
+        cin >> a;
+        if(a<=0){
+            x[i] = 1;
+            cout << "X[" << i << "] = " << x[i] << endl;
+            i++;
+        }else {
+            x[i] = a;
+            cout << "X[" << i << "] = " << x[i] <<endl;
+            i++;
+        }
+
+    }
+    
+    return 0;
+}

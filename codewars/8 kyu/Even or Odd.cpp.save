@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+string even_or_odd(int number) {
+    if(a%2 == 0) return "Even" ;
+    else return "Odd";
+ }
+
+
+int main()
+{
+    int t;
+    cin >> t;
+    while(t>0){
+
+
+        int a, result;
+        cin >> a;
+        
+
+
+
+        t--;
+    }
+
+
+
+    return 0;
+}

@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int t;
+    while(t>0){
+
+        char ch[100];
+        int n;
+        getline(cin, ch);
+        cin >> n;
+        if(ch == "Thor") cout << "Y" << eb
+
+        t--;
+    }
+
+
+    return 0;
+}

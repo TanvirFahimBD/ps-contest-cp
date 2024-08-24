@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+
+    int n, sqr;
+    for(int i = 1; i<=n; i++){
+        if(i%2 == 0){
+            sqr = i*i;
+            cout<<i<<"^"<<i<<" = "<<sqr;
+        }
+    }
+    return 0;
+}
