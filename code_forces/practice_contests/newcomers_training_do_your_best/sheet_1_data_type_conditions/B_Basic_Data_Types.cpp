@@ -1,3 +1,5 @@
+//B. Basic Data Types - https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/B
+
 #include <iostream>
 
 using namespace std;
