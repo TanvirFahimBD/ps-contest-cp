@@ -10,9 +10,11 @@ int main(){
 
     cin >> num;
 
-    for(; i<=num; i++){
-        sum += i;
-    }
+//    for(; i<=num; i++){
+//        sum += i;
+//    }
+
+    sum = (num * (num+1))/2;
 
     cout << sum << endl;
 
