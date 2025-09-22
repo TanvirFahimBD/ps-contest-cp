@@ -38,11 +38,11 @@ int main(){
             }
          }
          else{
-           if(num1>num2){
+           if(num1>num3){
                cout << num2 << " " << num1 << endl;
             }
             else{
-               cout << num2 << " " << num2 << endl;
+               cout << num2 << " " << num3 << endl;
             }
         }
     }
