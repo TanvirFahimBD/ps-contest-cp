@@ -7,7 +7,6 @@ int main() {
     long long s1, s2, s3, s4;
     if (!(cin >> s1 >> s2 >> s3 >> s4)) return 0;
     set<long long> st = {s1, s2, s3, s4};
-    cout << (int)st.size() << '\n';
     cout << 4 - (int)st.size() << '\n';
     return 0;
 }
