@@ -1,2 +1,2 @@
 # ps-contest-cp
-# cf -> expert(2026)
+# cf -> expert(2026 target)
